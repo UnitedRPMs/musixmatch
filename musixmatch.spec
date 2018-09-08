@@ -1,11 +1,11 @@
 AutoReqProv: no
 %global debug_package %{nil}
 %global opt_mu /opt/Musixmatch
-%define md5_musixmatch 0a95f8c685bf8f50553740c17878b015 
+%define md5_musixmatch 222b4c30ce4cb3137d8c77dbe340ebba 
 
 Summary: Installer for the musixmatch
 Name: musixmatch
-Version: 0.19.4
+Version: 0.20.20
 Release: 1%{dist}
 License: Proprietary
 Group: Applications/Internet
@@ -166,6 +166,7 @@ elif [ -f data.tar.gz ]; then
 tar xmzvf data.tar.gz -C $PWD
 fi
 
+rm -rf /opt/Musixmatch
 cp -rn $PWD/opt/Musixmatch /opt/
 cp -rn $PWD/usr/share/icons/hicolor/* /usr/share/icons/hicolor/
 cp -rf $PWD/usr/share/doc/musixmatch /usr/share/doc/
@@ -222,6 +223,9 @@ touch --no-create %{_datadir}/icons/hicolor || :
 
 
 %changelog
+
+* Fri Sep 07 2018 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 0.20.20-1
+- Updated to 0.20.20
 
 * Mon May 07 2018 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 0.19.4-1
 - Initial build

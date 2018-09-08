@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Length: 41800184
+Connection: keep-alive
+Date: Sat, 08 Sep 2018 00:15:27 GMT
+Server: nginx/1.9.5
+X-Powered-By: Express
+content-disposition: attachment; filename=musixmatch_0.20.20_amd64.deb
+last-modified: Tue, 28 Aug 2018 08:59:07 GMT
+etag: "222b4c30ce4cb3137d8c77dbe340ebba"
+accept-ranges: bytes
+X-Cache: Miss from cloudfront
+Via: 1.1 188b1ed2d0788bf81a654d83fd67a543.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: E8H_dxzvqlPXG6fZZ4n1wp7wtJYqpzhT4390mE2JinaujjxWrkWeOQ==
+
