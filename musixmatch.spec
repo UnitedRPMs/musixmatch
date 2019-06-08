@@ -4,7 +4,7 @@ AutoReqProv: no
 
 Summary: Installer for the musixmatch
 Name: musixmatch
-Version: 3.2.0
+Version: 3.3.1
 Release: 1%{dist}
 License: Proprietary
 Group: Applications/Internet
@@ -61,6 +61,9 @@ ln -s /opt/Musixmatch/%{name} "%{buildroot}/usr/bin/%{name}"
 %{opt_mu}/
 
 %changelog
+
+* Fri Jun 07 2019 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 3.3.1-1
+- Updated to 3.3.1
 
 * Fri May 17 2019 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 3.2.0-1
 - Updated to 3.2.0
