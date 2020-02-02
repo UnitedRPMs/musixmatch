@@ -1,10 +1,26 @@
+#
+# spec file for package musixmatch
+#
+# Copyright (c) 2020 UnitedRPMs.
+#
+# All modifications and additions to the file contributed by third parties
+# remain the property of their copyright owners, unless otherwise agreed
+# upon. The license for this file, and modifications and additions to the
+# file, is the same license as for the pristine package itself (unless the
+# license for the pristine package is not an Open Source License, in which
+# case the license is the MIT License). An "Open Source License" is a
+# license that conforms to the Open Source Definition (Version 1.9)
+# published by the Open Source Initiative.
+
+# Please submit bugfixes or comments via https://goo.gl/zqFJft
+#
 AutoReqProv: no
 %global debug_package %{nil}
 %global opt_mu /opt/Musixmatch
 
 Summary: Installer for the musixmatch
 Name: musixmatch
-Version: 3.6.1
+Version: 3.9.0
 Release: 1%{dist}
 License: Proprietary
 Group: Applications/Internet
@@ -61,6 +77,9 @@ ln -s /opt/Musixmatch/%{name} "%{buildroot}/usr/bin/%{name}"
 %{opt_mu}/
 
 %changelog
+
+* Fri Jan 31 2020 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 3.9.0-1
+- Updated to 3.9.0
 
 * Wed Aug 21 2019 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 3.6.1-1
 - Updated to 3.6.1
