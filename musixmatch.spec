@@ -74,6 +74,7 @@ ln -s /opt/Musixmatch/%{name} "%{buildroot}/usr/bin/%{name}"
 %{_datadir}/applications/%{name}.desktop
 %{_docdir}/musixmatch/changelog.gz
 %{_datadir}/icons/hicolor/*/apps/musixmatch.png
+%{_datadir}/mime/packages/musixmatch.xml
 %{opt_mu}/
 
 %changelog
